@@ -1,7 +1,7 @@
 # ROC-curve-and-best-cutoff
-> ls()
+ls()
  [1] "abl"  "age"  "cr"   "data" "id"   "ldh"  "mods" "reg"  "sex"  "xlab"
-> data[1:3,]
+data[1:3,]
   id sex age    ldh    cr  abl mods
 1  1   f  65  299.3  47.1 34.4    1
 2  2   m  40 2036.0 395.1 25.9    1
@@ -24,8 +24,6 @@ Number of cut-points: 104.0000    Number of cut-points:  71.0000
  Sensitivity         :  1.0000   
  Specificity         :  1.0000   
  AUC                 :  0.1483   
-
-**********************************************************************************************
 par(mfrow=c(2,2))
 data[1,]
   id sex age   ldh   cr  abl mods
