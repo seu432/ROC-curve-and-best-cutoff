@@ -28,9 +28,9 @@ par(mfrow=c(2,2))
 data[1,]
   id sex age   ldh   cr  abl mods
 1  1   f  65 299.3 47.1 34.4    1
-> roc(data[,4],data[,7],"1")->r.ldh
-> roc(data[,5],data[,7],"1")->r.cr
-> roc(data[,6],data[,7],"0")->r.abl
-> plot(r.ldh,main="ldh")
-> plot(r.cr,main="cr")
-> plot(r.abl,main="abl")
+ roc(data[,4],data[,7],"1")->r.ldh
+ roc(data[,5],data[,7],"1")->r.cr
+ roc(data[,6],data[,7],"0")->r.abl
+ plot(r.ldh,main="ldh")
+ plot(r.cr,main="cr")
+ plot(r.abl,main="abl")
